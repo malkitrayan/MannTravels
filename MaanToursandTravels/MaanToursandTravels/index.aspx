@@ -10,7 +10,7 @@
 		<div>
             <marquee SCROLLAMOUNT="3" scrolldelay="1" ONMOUSEOVER="this.stop()" ONMOUSEOUT="this.start()">
 
-		<font color="#00000" size="2">Call Anytime  Hour Helpline <strong>+919318967083, +919857101000</strong> . For Enquiry Email at <strong>singhmonu.snr@gmail.com</strong></font>
+		<font color="#00000" size="2">Call 24*7 Helpline <strong>+919318967083, +919857101000</strong> . For Enquiry Email at <strong>singhmonu.snr@gmail.com</strong></font>
 
 	      </marquee>
           </div>	
