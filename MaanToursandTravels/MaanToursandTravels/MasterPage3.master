@@ -1,0 +1,205 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage3, App_Web_oydnxyzs" %>
+
+
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head id="Head1" runat="server">
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<title>MAAN Tours & Travels</title>
+        	<meta charset="utf-8">
+
+	<meta name="Keywords" content="maan travels , maan travels company himachaltourism, himachal tours tourism &amp;  travels information, kullu, manali, shimla, dalhousie,  package tours,jeep safaris,hill stations, trekking, hotels information bookings reservations,iceskiing, paragliding, buddhist tours, monasteries, tourist destinations,himachal tours tourism trekking in himachal pradesh, trekking in himalayas, india trek guide, indian tourism, indian trekking guide, tourism in india, india travel, Himachal car rental, car rentals Himachal, Himachal rent a car,  Himachal luxury car rental, Himachal online car rental, Himachal rental car, Himachal accommodation in india, Himachal Online Car Rental, Himachal Rental Car, Himachal Rental Car Company, tour and travel in india, tour and travels in himachal, Tour organizer, Volvo Booking, Air Ticket Booking  Railways Booking, Tour packages for Himachal, Manali, Hadimba temple.">
+	<meta name="description" content="MAAN Tours & Travels is a premium Tour Operator in Himachal Pradesh providing customers with services ranging from organizing value based tours, which focuses on the customer’s budget as well as their vacation needs. " />
+	
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="styles/zerogrid.css">
+	<link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+	<link rel="stylesheet" href="styles/responsiveslides.css" />
+	<link rel="stylesheet" href="styles/searchform.css"/>	
+	<link rel="stylesheet" href="styles/group_rollover.css"/>			
+   
+
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           &nbsp;</a></div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+			<link href='./images/favicon.ico' rel='icon' type='image/x-icon'/>
+
+	
+	
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/responsiveslides.js"></script>
+	<script>
+	    $(function () {
+	        $("#slider").responsiveSlides({
+	            auto: true,
+	            pager: false,
+	            nav: true,
+	            speed: 500,
+	            maxwidth: 960,
+	            namespace: "centered-btns"
+	        });
+	    });
+  </script>
+    
+</head>
+<body>
+        <form id="form1" runat="server">
+
+<!--------------Header--------------->
+<header> 
+	<div class="zerogrid">
+		<div class="row">
+			<div class="col05">
+				<div id="logo"><a href=""><img src="./images/logo.png"/></a></div>
+			</div>
+			<div class="col06 offset05">
+				<div id="searchbox">
+						<div class="fl_right">
+                            <p style="color: #FFFFFF; width: 413px;">
+&nbsp;Mob: +919318967083 | Mail: singhmonu.snr@gmail.com</p>
+                        </div>
+&nbsp;
+					</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!--------------Navigation--------------->
+
+<nav>
+	<ul>
+        									
+
+		<li class="current_page_item"><a href="index.aspx">Home</a></li>
+		<li><a href="about.aspx">About Us</a></li>
+		<li><a href="tours.aspx">Tours</a></li>
+		<li><a href="packages.aspx">Packages</a></li>
+        <li><a href="entertainment.aspx">Entertainment</a></li>
+        <li><a href="gallery.aspx">Gallery</a></li>
+		<li><a href="contacts.aspx">Contact Us</a></li>
+	</ul>
+</nav>
+
+<section class="featured zerogrid">
+	
+		<div class="row">
+			<div class="col16">
+					<ul class="rslides" id="slider">
+						<li><img src="images/15.jpg"/></li>
+						
+					</ul>
+				
+			</div>
+		</div>
+	
+</section>
+			
+<!--------------Content--------------->
+<section id="content">
+	<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+             
+    </asp:ContentPlaceHolder>
+</section>
+<!--------------Footer--------------->
+<footer>
+	<div class="zerogrid">
+		<div class="row block2">
+			<section class="col-1-3" style="width: 400px">
+				<div class="heading" style="text-decoration: underline">Contact Us</div>
+				<div class="content">
+					<table class="auto-style1">
+                        <tr>
+                            <td class="auto-style2" style="color: #BFCE12; font-size: x-large; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: normal;" colspan="2">Maan Tours &amp; Travel&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><span class="null">Near Nehru Park, Bhojpur</span></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Sunder Nagar, NH-21</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Himachal Pardesh, India</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Call Us- +919318967083, +919857101000</td>
+                        </tr>
+                        <tr>
+                            <td style="color: #FFFFCC">Email-</td>
+                            <td style="color: #FFFFFF">&nbsp;singhmonu.snr@gmail.com</td>
+                        </tr>
+                    </table>
+				</div>
+			</section>
+			<section class="col-1-3" style="width: 200px">
+				<div class="heading">
+                    <table class="auto-style3" style="text-decoration: underline">
+                        <tr>
+                            <td>Navigate</td>
+                        </tr>
+                    </table>
+                </div>
+				<div class="content">
+					<ul>
+						<li><a href="index.aspx">Home</a></li>
+						<li><a href="about.aspx">About Us</a></li>
+						<li><a href="tours.aspx">Tours</a></li>
+						<li><a href="packages.aspx">Packages</a></li>
+						<li><a href="entertainment.aspx">Entertainment</a></li>
+                        <li><a href="gallery.aspx">Gallery</a></li>
+					</ul>
+				</div>
+			</section>
+			<section class="col-1-3">
+				<div class="heading" style="text-decoration: underline">Tourism Packages</div>
+				<div class="content">
+					<table border="0px">
+						<tr>
+							<div class="content">
+					<ul>
+						<li><a href="tours.aspx">Tour Packages</a></li>
+						<li><a href="view_packages.aspx?cod=2">Pilgrimage Packages</a></li>
+						<li><a href="entertainment.aspx">Adventure Packages</a></li>
+						<li><a href="view_packages.aspx?cod=1">Himachal Packages</a></li>
+                        <div>
+                                                    					</ul>
+
+                            <div>
+                                <p>__________________________</p>
+                            </div>
+                         <p style="color: #BFCE12">Follow Us On:  <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/images/fb.png" Height="25" Width="25" PostBackUrl="https://www.facebook.com/maantoursn.travels?fref=ts" /></p>
+                        </div>
+				</div>
+						</tr>
+					</table>
+				</div>
+			</section>
+		</div>
+	</div>
+</footer>
+
+<div id="copyright">
+	<p>Copyright © 2013 - Maan Tour and Travels all right reserved</p>
+	<p>Developed &amp; Designed &nbsp;by <a href="https://www.facebook.com/FreeThinkersAreHere?ref=hl" target="_blank">Free Thinkers</a></p>
+</div>
+
+</body></html>
+</form>
+
